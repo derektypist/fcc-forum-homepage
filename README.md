@@ -19,13 +19,23 @@ View a list of most recent posts.  View the number of replies and views that eac
 
 ## Technologies
 
-This project uses HTML5, CSS3, Google Fonts, JavaScript and React.
+This project uses HTML5, CSS3, Google Fonts, JavaScript, React and Moment.
+
+## Testing
+
+Ensure user stories have been met.
+
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/fcc-forum-homepage) at the main branch.
+
+Go to package.json and add `homepage:https://derektypist.github.io/fcc-forum-homepage`.  Still in fcc-forum type `npm run deploy`, when asked enter username and password.
 
 ## Credits
 
 ### Content
 
-Taken from [Adityesh Mishra](https://codepen.io/adityesh-the-reactor/pen/oNjgaoR).  Did a search on FreeCodeCamp Forum
+Most of the code taken from [Adityesh Mishra](https://codepen.io/adityesh-the-reactor/pen/oNjgaoR).  Did a search on FreeCodeCamp Forum
 Homepage at https://forum.freecodecamp.org
 
 ### Acknowledgemnts
