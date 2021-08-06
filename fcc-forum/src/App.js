@@ -16,7 +16,7 @@ function Topic(props) {
         <span>{props.images.map((index,key) => {
           let img_url = index.avatar_template;
           img_url = img_url.replace('{size}','24');
-          return <a key={key} href={profile + index.username} target="_blank"><img src={imgUrl + img_url}></img></a>
+          return <a key={key} href={profile + index.username} target="_blank"><img src={imgUrl + img_url} alt=""></img></a>
         })}</span>
       </div>
       <div className="second">
@@ -45,7 +45,7 @@ function Header() {
   )
 }
 
-class App extends React.Component {
+class App extends Component {
 
   constructor(props) {
     super(props)
