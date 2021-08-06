@@ -82,7 +82,8 @@ class App extends React.Component {
         <h1>FreeCodeCamp Forum Home Page</h1>
         <Header />
         {isFetching ? topics.map((index,key) => {
-
+          let activity = ''
+          
         }) : <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>}
       </div>
     )
