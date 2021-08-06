@@ -30,11 +30,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <style>
+      /* Body */
       body {
         font-family: "Roboto", Arial, Verdana, sans-serif;
         background-color: lightblue;
       }
 
+      /* Topic */
       .topic {
         display: flex;
         width: 60%;
@@ -44,6 +46,29 @@
         margin: 20px 0;
         align-items: center;
         padding: 0;
+      }
+
+      .topic div {
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+        flex:1;
+      }
+
+      .topic div:nth-of-type(1) {
+        flex:5;
+      }
+
+      .topic div span {
+        padding-right: 20px;
+      }
+
+      /* Header */
+      .header {
+        display: flex;
+        width: 60%;
+        margin: 20px 0;
+        
       }
     </style>
   </head>
