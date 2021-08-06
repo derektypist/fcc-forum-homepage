@@ -29,7 +29,9 @@ Ensure user stories have been met.
 
 Deployed on [GitHub Pages](https://derektypist.github.io/fcc-forum-homepage) at the main branch.
 
-Go to package.json and add `homepage:https://derektypist.github.io/fcc-forum-homepage`.  Still in fcc-forum type `npm run deploy`, when asked enter username and password.
+Enter the command `cd fcc-forum` and then `npm start` to begin development.
+
+Go to package.json and add `"homepage":"https://derektypist.github.io/fcc-forum-homepage"`.  Within scrips, add `"predeploy":"npm run build","deploy":"gh-pages -d build"`.  Still in fcc-forum type `npm run deploy`, when asked enter username and password.
 
 ## Credits
 
