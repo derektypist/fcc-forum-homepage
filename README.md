@@ -13,3 +13,8 @@ last active.
 
 The most recent forum posts are at  https://forum-proxy.freecodecamp.rocks/latest.
 
+## Credits
+
+Taken from [Adityesh Mishra](https://codepen.io/adityesh-the-reactor/pen/oNjgaoR).  Did a search on FreeCodeCamp Forum
+Homepage at https://forum.freecodecamp.org
+
