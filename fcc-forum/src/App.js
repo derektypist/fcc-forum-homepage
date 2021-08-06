@@ -76,7 +76,16 @@ class App extends React.Component {
 
   render() {
     const {users, topics, isFetching} = this.state
-    let userid = Object.values(users)
+    let userId = Object.values(users)
+    return(
+      <div className="App">
+        <h1>FreeCodeCamp Forum Home Page</h1>
+        <Header />
+        {isFetching ? topics.map((index,key) => {
+
+        }) : <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>}
+      </div>
+    )
   }
 
 
