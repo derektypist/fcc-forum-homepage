@@ -26,6 +26,24 @@ function Topic(props) {
     </div>
   )
 }
+
+// Function for Header
+function Header() {
+  return(
+    <div className="header">
+      <div>
+        <span>#</span>
+        <span>Topic</span>
+      </div>
+      <div>
+        <span>Replies</span>
+        <span>Views</span>
+        <span>Activity</span>
+      </div>
+    </div>
+  )
+}
+
 function App() {
   return (
     <div className="App">
