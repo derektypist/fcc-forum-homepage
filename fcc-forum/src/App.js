@@ -19,7 +19,9 @@ function Topic(props) {
         })}</span>
       </div>
       <div className="second">
-        
+        <span>{props.replies-1}</span>
+        <span>{props.views}</span>
+        <span>{props.activity}</span>
       </div>
     </div>
   )
