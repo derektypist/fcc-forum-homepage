@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+let moment = require('moment');
 
 // Function for Topic
 function Topic(props) {
@@ -83,7 +84,24 @@ class App extends React.Component {
         <Header />
         {isFetching ? topics.map((index,key) => {
           let activity = ''
-          
+          const createdAt = moment(new Date(),'DD/MM/YYYY')
+          const lastUpdated = moment(new Date(index.last_posted_at),'DD/MM/YYYY')
+          const minutes = Math.floor(moment.duration(createdAt.diff(lastUpdated)).asMinutes())
+          const hours = Math.floor(moment.duration(createdAt.diff(lastUpdated)).asHours())
+          const posters = index.posters
+          let images = []
+          for (let i=0; i < posters.length; i++) {
+            images.push(this.findUser(posters[i].user_id))
+          }
+
+          if (minutes > 59) {
+            activity = hours + "h"
+          } else {
+            activity = minutes + "m"
+          }
+
+          return <Topic index = {key+1} topic={index.title} key={key} replies={index.posts_count} views={index.views} activity={activity} id={index.id} images={images} />
+
         }) : <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>}
       </div>
     )
