@@ -74,7 +74,12 @@ class App extends React.Component {
     })
   }
 
-  
+  render() {
+    const {users, topics, isFetching} = this.state
+    let userid = Object.values(users)
+  }
+
+
 }
 
 export default App;
