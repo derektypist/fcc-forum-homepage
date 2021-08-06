@@ -12,7 +12,14 @@ function Topic(props) {
           <span>{props.index}</span>
           <span><a href={url} target="_blank">{props.topic}</a></span>
         </div>
-        <span>{props.images.map((index,key) => {})}</span>
+        <span>{props.images.map((index,key) => {
+          let img_url = index.avatar_template;
+          img_url = img_url.replace('{size}','24');
+          return <a key={key} href={profile + index.username} target="_blank"><img src={imgUrl + img_url}></img></a>
+        })}</span>
+      </div>
+      <div className="second">
+        
       </div>
     </div>
   )
