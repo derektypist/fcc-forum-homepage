@@ -15,6 +15,13 @@ The most recent forum posts are at  https://forum-proxy.freecodecamp.rocks/lates
 
 ## Credits
 
+### Content
+
 Taken from [Adityesh Mishra](https://codepen.io/adityesh-the-reactor/pen/oNjgaoR).  Did a search on FreeCodeCamp Forum
 Homepage at https://forum.freecodecamp.org
 
+### Acknowledgemnts
+
+- [FreeCodeCamp](https://www.freecodecamp.org)
+- [Adityesh Mishra](https://codepen.io/adityesh-the-reactor/pen/oNjgaoR)
+- [W3Schools](https://www.w3schools.com)
