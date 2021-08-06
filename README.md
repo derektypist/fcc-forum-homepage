@@ -17,7 +17,9 @@ The most recent forum posts are at  https://forum-proxy.freecodecamp.rocks/lates
 
 View a list of most recent posts.  View the number of replies and views that each topic has had.  Timestamp of when the topic was last active.  See the title and a list of links to users who have recently posted in it.
 
+## Technologies
 
+This project uses HTML5, CSS3, Google Fonts, JavaScript and React.
 
 ## Credits
 
