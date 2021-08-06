@@ -13,6 +13,12 @@ last active.
 
 The most recent forum posts are at  https://forum-proxy.freecodecamp.rocks/latest.
 
+## Features
+
+View a list of most recent posts.  View the number of replies and views that each topic has had.  Timestamp of when the topic was last active.  See the title and a list of links to users who have recently posted in it.
+
+
+
 ## Credits
 
 ### Content
